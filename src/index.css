@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+body {background-image: url("https://tamalsen.dev/wp-content/uploads/2021/07/tamalsen-home-cover.jpg");
+background-position: center;
+background-position-y: 25%;
+background-size: cover;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+font-family: comic-sans;
+font-size: 16px;line-height: 1.5;
+
+
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add other default CSS properties as needed */
+  }
+
+html {
+  height: 100%;
+  /* Add other default CSS properties as needed */
+}
+div{color:white;}

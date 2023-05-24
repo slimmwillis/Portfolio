@@ -1,0 +1,13 @@
+.header{
+    background-color: rgb(25, 22, 43);
+    display:flex;
+    gap: 15%;
+}
+/* .NavMenu{
+margin-left: 10rem;
+}*/
+.logo{
+    
+
+margin-left: 1rem;
+} 

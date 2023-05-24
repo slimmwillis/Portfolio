@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./components/header/Header";
+import Hero from "./components/hero_section/Hero";
+import "./index.css";
+import { useEffect, useState } from "react";
 function App() {
+  const [name, setName] = useState("Darshan");
+  //what is inceptors
+  //token
+
+  // useEffect(() => {
+  //   fetchApi();
+  // }, []);
+  const fetchApi = async () => {
+    try {
+      const response = await fetch("http://localhost:4000", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name: "darshan" }),
+      });
+      if (response.ok) {
+        const jsonData = await response.json();
+        console.log(jsonData);
+      } else {
+        throw new Error("Request failed");
+      }
+    } catch (error) {
+      console.error("Error:", error.message);
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {name}
+      <Test
+        onPress={() => {
+          setName("maira");
+        }}
+      ></Test>
+
+      <Header />
+      <Hero />
+    </>
   );
 }
-
+const Test = ({ onPress }) => {
+  return <button onClick={onPress}>Name</button>;
+};
 export default App;

@@ -1,22 +1,52 @@
-body {background-image: url("https://tamalsen.dev/wp-content/uploads/2021/07/tamalsen-home-cover.jpg");
-background-position: center;
-background-position-y: 25%;
-background-size: cover;
-
-font-family: comic-sans;
-font-size: 16px;line-height: 1.5;
-
-
+body {
+  background-image: url("https://tamalsen.dev/wp-content/uploads/2021/07/tamalsen-home-cover.jpg");
+  background-position: center;
+  background-position-y: 25%;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: comic-sans;
+  font-size: 16px;
+  line-height: 1.5;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* Add other default CSS properties as needed */
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Add other default CSS properties as needed */
+}
 
 html {
   height: 100%;
   /* Add other default CSS properties as needed */
 }
-div{color:white;}
+div {
+  color: white;
+}
+
+
+.section__heading {
+    text-shadow: 2px 2px 10px rgb(248, 86, 5);
+    font-size: 50px;
+    text-align: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: rgb(248, 86, 5);
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(1);
+}

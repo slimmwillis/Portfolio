@@ -1,29 +1,20 @@
-import React from "react";
-import HeroName from "./HeroName";
-import TheSun from "./TheSun";
-import HeroIntro from "./HeroIntro";
-import CoolIcon from "./CoolIcon";
-import "./hero.css";
+import React from "react"
+import TheSun from "./TheSun"
+import "./hero.css"
 
 function Hero() {
   return (
     <div className="hero">
       <TheSun />
 
-        <div><h2 className="hero__name">William Bailey</h2>
-        </div>
-         <div><h3 className="hero__title">
-                Web/WordPress/Game Developer
-              </h3></div>
-        
+      <div className="hero__content">
+        <h2 className="hero__name">William Bailey</h2>
+        <h3 className="hero__title">Web/WordPress/Game Developer</h3>
 
-
-      {/* <HeroName />
-      
-      <HeroIntro />
-      <CoolIcon /> */}
+        <button className="btn">Hire Me</button>
+      </div>
     </div>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

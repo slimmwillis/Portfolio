@@ -1,13 +1,24 @@
 .header{
     background-color: rgb(25, 22, 43);
     display:flex;
-    gap: 15%;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
-/* .NavMenu{
-margin-left: 10rem;
-}*/
-.logo{
-    
 
-margin-left: 1rem;
-} 
+.logo {
+    font-size: 18px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}

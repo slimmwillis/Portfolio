@@ -1,5 +1,5 @@
 import "./skills.css"
-import { skills } from "../../data/skills"
+import { skills } from "../../data/Skills"
 
 const Skills = () => {
   return (
@@ -11,6 +11,19 @@ const Skills = () => {
           <i class={skill.iconClass} key={skill.name}></i>
         ))}
       </div>
+
+      <div className="mainGameIcons">
+          <div className="UNITY">
+            
+          <img src="/images/UNITY.png" alt="logo" class="UNITYcenter"/></div>
+        
+          <div className="HTML5GAMES">
+
+          <img src="/images/HTML5GAMES.png" alt="logo" class="HTMLcenter"/>
+
+          </div>
+          </div>
+
     </div>
   )
 }

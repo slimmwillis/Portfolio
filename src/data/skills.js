@@ -1,18 +1,18 @@
 export const skills = [
   {
     name: "HTML",
-    iconClass: "devicon-html5-plain"
+    iconClass: "devicon-mongodb-plain",
   },
   {
     name: "CSS",
-    iconClass: "devicon-css3-plain"
+    iconClass: "devicon-express-original",
   },
   {
     name: "JavaScript",
-    iconClass: "devicon-javascript-plain"
+    iconClass: "devicon-react-plain",
   },
   {
     name: "React",
-    iconClass: "devicon-react-original"
-  }
-]
+    iconClass: "devicon-nodejs-plain",
+  },
+];

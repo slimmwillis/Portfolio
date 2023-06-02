@@ -1,5 +1,6 @@
 import "./skills.css"
-import { skills1,skills2, skills3 } from "../../data/skills.js"
+import "./float_shadow.css"
+import { skills } from "../../data/skills.js"
 
 const Skills = () => {
   return (
@@ -7,11 +8,26 @@ const Skills = () => {
       <h2 className="section__heading">Skills</h2>
 
       <div className="skills__icons">
-        {skills1.map((skill) => (
+        <div>
+          {skills.slice(0, 4).map((skill) => (
           <i class={skill.iconClass} key={skill.name}></i>
         ))}
+            </div>
+            <div>
+          {skills.slice(4, 7).map((skill) => (
+          <i class={skill.iconClass} key={skill.name}></i>
+        ))}
+            </div>
+
+        <div>
+          {skills.slice(7, 10).map((skill) => (
+            (skill.name=="PHASER")?<img src="images\Phaser.png" class="shadow" alt="Phaser" width="120px" height="120px"/>:
+          <i class={skill.iconClass} key={skill.name}></i>
+        ))}
+            </div>        
+        
       </div>
-      <div className="skills__icons">
+      {/* <div className="skills__icons">
         {skills2.map((skill) => (
           // (skill.name=="PHASER")?<img src="images\Phaser.png" alt="Phaser" width="50px" height="50px"/>:
           <i class={skill.iconClass} key={skill.name}></i>
@@ -23,19 +39,19 @@ const Skills = () => {
 
           <i class={skill.iconClass} key={skill.name}></i>
         ))}
-      </div>
+      </div> */}
 
-      <div className="skills__icons imag2">
+      {/* <div className="skills__icons imag2"> */}
           {/* <div className="UNITY"> */}
             
-          <img src="/images/UNITY.png" width="300px" height="100px" alt="logo" class="UNITYcenter"/>
+          {/* <img src="/images/UNITY.png" width="300px" height="100px" alt="logo" class="UNITYcenter"/> */}
         
           {/* <div className="HTML5GAMES"> */}
 
-          <img src="/images/HTML5GAMES.png" width="300px" height="100px" alt="logo" class="HTMLcenter"/>
+          {/* <img src="/images/HTML5GAMES.png" width="300px" height="100px" alt="logo" class="HTMLcenter"/> */}
 
           {/* </div> */}
-          </div>
+          {/* </div> */}
 
     </div>
   )

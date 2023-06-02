@@ -1,6 +1,6 @@
-export const skills1 = [
+export const skills = [
   {
-    name: "HTML",
+    name: "shadow",
     iconClass: "devicon-mongodb-plain",
   },
   {
@@ -15,9 +15,6 @@ export const skills1 = [
     name: "React",
     iconClass: "devicon-nodejs-plain",
   },
-];
-
-export const skills2 = [
   {
     name: "HTML",
     iconClass: "devicon-sass-original",
@@ -31,9 +28,7 @@ export const skills2 = [
     name: "ghsdf",
     iconClass: "devicon-threejs-original",
   },
-];
 
-export const skills3 = [
   {
     name: "HTML",
     iconClass: " devicon-csharp-plain",
@@ -41,7 +36,7 @@ export const skills3 = [
 
   {
     name: "PHASER",
-    iconClass: "devicon-react-plain",
+    iconClass: 'C:\Users\slimm\Desktop\Projects\My_website\My_react_website\public\images\Phaser.png'
   },
 
   {

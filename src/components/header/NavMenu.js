@@ -44,10 +44,10 @@ function NavMenu() {
       >
         <ul>
         <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects" className="hideMe">Projects</a>
           </li>
           <li>
-            <a href="/#skills">Skills</a>
+            <a href="/#skills" className="hideMe">Skills</a>
           </li>
           <li>
             <a href="/aboutMe">About</a>

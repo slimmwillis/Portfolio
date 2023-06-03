@@ -4,8 +4,10 @@ import { skills } from "../../data/skills.js"
 
 const Skills = () => {
   return (
-    <div className="skills">
-      <h2 className="section__heading">Skills</h2>
+    <>
+    {/* <a name="skills"></a> */}
+    <div className="skills" id="skills" >
+      <h2 className="section__heading" >Skills</h2>
 
       <div className="skills__icons">
         <div>
@@ -54,6 +56,7 @@ const Skills = () => {
           {/* </div> */}
 
     </div>
+    </>
   )
 }
 

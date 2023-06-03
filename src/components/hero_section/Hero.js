@@ -4,7 +4,8 @@ import "./hero.css";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" >
+      
       <TheSun />
 
       <div className="hero__content">
@@ -12,7 +13,10 @@ function Hero() {
         <h3 className="hero__title">Web /WordPress /Game Developer</h3>
 
         <button className="btn">Hire Me</button>
+
       </div>
+      {/* <div id="skills"> </div> */}
+     
     </div>
   );
 }

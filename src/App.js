@@ -8,6 +8,9 @@ import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutline
 import { Dialog, DialogTitle, stepButtonClasses } from "@mui/material"
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import {io} from "socket.io-client"
+import { BrowserRouter,Route,Link,Routes ,Switch,withRouter} from 'react-router-dom';
+import Aboutus from "./components/aboutus/Aboutus"
+import Contact from "./components/contact/Contact"
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -29,15 +32,20 @@ const handleClose =()=>{
   return (
     <>
       <Header />
-      <Hero />
-      <Skills />
+      
+    <Routes>
+      <Route path={"/"} element={<><Hero />
+      <Skills/>
       <Projects />
       <ChatBubbleOutlineOutlinedIcon onClick={handleOpen} sx={{ fontSize: 100, position: "fixed", bottom: 10, right: 10}}/>
-    
+
       <Dialog onClose={handleClose} open={open}>
       <DialogTitle>Set backup account</DialogTitle>
         hello world
-    </Dialog>
+    </Dialog> </>}/>
+            <Route  path={'/Contact'} element={<Contact/>}/>
+            <Route  path={`/Aboutus`} element={<Aboutus/>}/>
+      </Routes>
 
     </>
   )

@@ -60,8 +60,8 @@ function App() {
             </>
           }
         />
-        <Route path={"/Contact"} element={<Contact />} />
-        <Route path={`/AboutMe`} element={<AboutMe />} />
+        <Route path={"/contact"} element={<Contact />} />
+        <Route path={"/aboutme"} element={<AboutMe />} />
       </Routes>
     </>
   );

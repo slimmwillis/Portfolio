@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavMenu.css";
-// import { Link,NavLink } from 'react-router-dom';
-// import { HashLink } from "react-router-hash-link";
+import { Link,NavLink } from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 
 function NavMenu() {
@@ -44,16 +44,16 @@ function NavMenu() {
       >
         <ul>
         <li>
-            <a href="/#projects" className="hideMe">Projects</a>
+            <HashLink to="/#projects" className="" onClick={()=>{setIsNavExpanded(false)}}>Projects</HashLink>
           </li>
           <li>
-            <a href="/#skills" className="hideMe">Skills</a>
+            <HashLink to="/#skills" className="" onClick={()=>{setIsNavExpanded(false)}}>Skills</HashLink> 
           </li>
           <li>
-            <a href="/aboutMe">About</a>
+            <Link to="/aboutme" onClick={()=>{setIsNavExpanded(false)}}>About</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact" onClick={()=>{setIsNavExpanded(false)}}>Contact</Link>
           </li>
         </ul>
       </div>

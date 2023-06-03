@@ -2,7 +2,17 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+#skills{
+  display:block;
+}
 
+.section__heading{
+  padding-top:60px;
+}
+
+.textSkills{
+  margin-top: ;
+}
 .skills__icons {
   /* display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;

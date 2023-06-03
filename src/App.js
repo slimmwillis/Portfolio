@@ -35,7 +35,7 @@ const handleClose =()=>{
       
     <Routes>
       <Route path={"/"} element={<><Hero />
-      <Skills/>
+      <Skills />
       <Projects />
       <ChatBubbleOutlineOutlinedIcon onClick={handleOpen} sx={{ fontSize: 100, position: "fixed", bottom: 10, right: 10}}/>
 

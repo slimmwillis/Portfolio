@@ -2,18 +2,25 @@ import React from "react";
 import "./NavMenu.css";
 // import { Link,NavLink } from 'react-router-dom';
 // import { HashLink } from "react-router-hash-link";
+import { useState } from "react";
+
 function NavMenu() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
-    
     //changed div to nav
     <nav className="nav">
-      
       <a href="/" className="brand-name">
         Baileys
       </a>
 
       {/* hamburger NavMenu */}
-      <button className="hamburger">
+      <button
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
         {/* icon from heroicons.com */}
 
         <svg
@@ -29,13 +36,21 @@ function NavMenu() {
           />
         </svg>
       </button>
-      <div className="navigation-menu">
+
+      <div
+        className={
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+        }
+      >
         <ul>
-          <li>
-            <a href="/home">Home</a>
+        <li>
+            <a href="/">Projects</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/">Skills</a>
+          </li>
+          <li>
+            <a href="/aboutMe">About</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
@@ -53,14 +68,13 @@ function NavMenu() {
       <a href="/Contact">Contact</a> 
       <Link to={"/Contact"}>Contact</Link>  */}
 
-
       {/* <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a> */}
     </nav>
-  )
+  );
 }
 
 export default NavMenu;

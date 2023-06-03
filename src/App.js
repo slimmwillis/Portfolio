@@ -9,8 +9,8 @@ import { Dialog, DialogTitle, stepButtonClasses } from "@mui/material"
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import {io} from "socket.io-client"
 import { BrowserRouter,Route,Link,Routes ,Switch,withRouter} from 'react-router-dom';
-import Aboutus from "./components/aboutus/Aboutus"
-import Contact from "./components/contact/Contact"
+import AboutMe from "./pages/AboutMe.js"
+import Contact from "./pages/Contact.js"
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -44,7 +44,7 @@ const handleClose =()=>{
         hello world
     </Dialog> </>}/>
             <Route  path={'/Contact'} element={<Contact/>}/>
-            <Route  path={`/Aboutus`} element={<Aboutus/>}/>
+            <Route  path={`/AboutMe`} element={<AboutMe/>}/>
       </Routes>
 
     </>

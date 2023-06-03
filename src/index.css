@@ -51,3 +51,7 @@ div {
 .btn:active {
   transform: scale(1);
 }
+
+.contactDetails{
+  text-align: center;
+}

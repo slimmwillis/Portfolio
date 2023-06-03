@@ -1,9 +1,13 @@
 import React from "react";
 import "./NavMenu.css";
-
+import { Link,NavLink } from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
 function NavMenu() {
   return (
+    
+    //changed div to nav
     <nav className="nav">
+      
       <a href="/" className="brand-name">
         Baileys
       </a>
@@ -25,7 +29,6 @@ function NavMenu() {
           />
         </svg>
       </button>
-
       <div className="navigation-menu">
         <ul>
           <li>
@@ -39,8 +42,25 @@ function NavMenu() {
           </li>
         </ul>
       </div>
+
+      {/* Satyam's code  */}
+
+      {/* <HashLink to={"/#root"}>Home</HashLink>
+      {/* <a href="/Aboutus">About</a> */}
+      <Link to={"/Aboutus"}>About Us</Link>
+      <HashLink to={"/#skills"}>Skills</HashLink>
+      <HashLink to={"/#projects"}>Projects</HashLink>
+      {/* <a href="/Contact">Contact</a> */}
+      <Link to={"/Contact"}>Contact</Link> */}
+
+
+      {/* <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a> */}
     </nav>
-  );
+  )
 }
 
 export default NavMenu;

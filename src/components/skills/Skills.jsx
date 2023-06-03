@@ -10,19 +10,19 @@ const Skills = () => {
       <div className="skills__icons">
         <div>
           {skills.slice(0, 4).map((skill) => (
-          <i class={skill.iconClass} key={skill.name}></i>
+          <i className={skill.iconClass} key={skill.name}></i>
         ))}
             </div>
             <div>
           {skills.slice(4, 7).map((skill) => (
-          <i class={skill.iconClass} key={skill.name}></i>
+          <i className={skill.iconClass} key={skill.name}></i>
         ))}
             </div>
 
         <div>
           {skills.slice(7, 10).map((skill) => (
-            (skill.name=="PHASER")?<img src="images\Phaser.png" class="shadow" alt="Phaser" width="120px" height="120px"/>:
-          <i class={skill.iconClass} key={skill.name}></i>
+            (skill.name=="PHASER")?<img src="images\Phaser.png" className="shadow" alt="Phaser" width="120px" height="120px"/>:
+          <i className={skill.iconClass} key={skill.name}></i>
         ))}
             </div>        
         

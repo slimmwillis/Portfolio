@@ -46,12 +46,12 @@ function NavMenu() {
       {/* Satyam's code  */}
 
       {/* <HashLink to={"/#root"}>Home</HashLink>
-      {/* <a href="/Aboutus">About</a> */}
-      <Link to={"/Aboutus"}>About Us</Link>
+       <a href="/Aboutus">About</a> 
+       <Link to={"/Aboutus"}>About Us</Link>
       <HashLink to={"/#skills"}>Skills</HashLink>
       <HashLink to={"/#projects"}>Projects</HashLink>
-      {/* <a href="/Contact">Contact</a> */}
-      <Link to={"/Contact"}>Contact</Link> */}
+      <a href="/Contact">Contact</a> 
+      <Link to={"/Contact"}>Contact</Link>  */}
 
 
       {/* <a href="#home">Home</a>

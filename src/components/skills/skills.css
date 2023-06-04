@@ -15,7 +15,7 @@
 } */
 .skills__icons {
 
-  max-width: 60vw;
+  /* max-width: 60vw; */
   margin: 80px auto;
   color: white;
   font-size: 100px;
@@ -90,3 +90,10 @@
   margin-right: auto;
   width: 80%;
 } */
+
+.skills1,.skills2,.skills3,.skills4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 100px;
+}

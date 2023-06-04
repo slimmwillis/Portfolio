@@ -1,4 +1,4 @@
-export const skills = [
+export const skills1 = [
   {
     name: "MongoDB",
     iconClass: "devicon-mongodb-plain",
@@ -14,7 +14,8 @@ export const skills = [
   {
     name: "NodeJS",
     iconClass: "devicon-nodejs-plain",
-  },
+  }]
+  export const skills2 = [
   {
     name: "SASS",
     iconClass: "devicon-sass-original",
@@ -27,8 +28,8 @@ export const skills = [
   {
     name: "threeJS",
     iconClass: "devicon-threejs-original",
-  },
-
+  }]
+  export const skills3 =[
   {
     name: "C#",
     iconClass: " devicon-csharp-plain",
@@ -42,5 +43,5 @@ export const skills = [
   {
     name: "MaterialUI",
     iconClass: "devicon-materialui-plain",
-  },
+  }
 ];

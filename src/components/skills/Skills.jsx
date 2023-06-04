@@ -1,9 +1,9 @@
 import "./skills.css"
 import "./float_shadow.css"
-import { skills } from "../../data/skills.js"
+import { skills1,skills2,skills3 } from "../../data/skills.js"
 
 const Skills = () => {
-  console.log(skills)
+  // console.log(skills)
   return (
     <div id="skills">
     <div>
@@ -32,8 +32,9 @@ const Skills = () => {
         
       </div> */}
       <div className="skills__icons">
+        <div className="skills1">
         {
-        skills.map((skill)=>{
+        skills1.map((skill)=>{
           if(skill.name!="PHASER")
           return(
           <i className={skill.iconClass} key={skill.name} title={skill.name}></i>
@@ -42,6 +43,38 @@ const Skills = () => {
           return(<img src="images\Phaser.png" title="Phaser" className="shadow" alt="Phaser" width="120px" height="120px"/>)
         })
       }
+      </div>
+      <div className="skills2">
+        {
+        skills2.map((skill)=>{
+          if(skill.name!="PHASER")
+          return(
+          <i className={skill.iconClass} key={skill.name} title={skill.name}></i>
+          )
+          else
+          return(<img src="images\Phaser.png" title="Phaser" className="shadow" alt="Phaser" width="120px" height="120px"/>)
+        })
+      }
+      </div>
+      <div className="skills3">
+        {
+        skills3.map((skill)=>{
+          if(skill.name!="PHASER")
+          return(
+          <i className={skill.iconClass} key={skill.name} title={skill.name}></i>
+          )
+          else
+          return(<img src="images\Phaser.png" title="Phaser" className="shadow" alt="Phaser" width="120px" height="120px"/>)
+        })
+      }
+      </div>
+      <div className="skills4">
+          <img src="/images/UNITY.png" width="300px" height="100px" alt="logo" class="UNITYcenter"/>
+        
+          {/* <div className="HTML5GAMES"> */}
+
+          <img src="/images/HTML5GAMES.png" width="300px" height="100px" alt="logo" class="HTMLcenter"/>
+          </div>
       
       </div>
 
@@ -61,12 +94,13 @@ const Skills = () => {
 
       {/* <div className="skills__icons imag2"> */}
           {/* <div className="UNITY"> */}
-            
-          {/* <img src="/images/UNITY.png" width="300px" height="100px" alt="logo" class="UNITYcenter"/> */}
+            {/* <div className="skills4">
+          <img src="/images/UNITY.png" width="300px" height="100px" alt="logo" class="UNITYcenter"/>
         
           {/* <div className="HTML5GAMES"> */}
 
           {/* <img src="/images/HTML5GAMES.png" width="300px" height="100px" alt="logo" class="HTMLcenter"/> */}
+          {/* </div> */} 
 
           {/* </div> */}
           {/* </div> */}

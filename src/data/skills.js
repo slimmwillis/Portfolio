@@ -1,36 +1,36 @@
 export const skills = [
   {
-    name: "shadow",
+    name: "MongoDB",
     iconClass: "devicon-mongodb-plain",
   },
   {
-    name: "CSS",
+    name: "Express",
     iconClass: "devicon-express-original",
   },
   {
-    name: "JavaScript",
+    name: "ReactJS",
     iconClass: "devicon-react-plain",
   },
   {
-    name: "React",
+    name: "NodeJS",
     iconClass: "devicon-nodejs-plain",
   },
   {
-    name: "HTML",
+    name: "SASS",
     iconClass: "devicon-sass-original",
   },
   {
-    name: "CSS",
+    name: "Bootstrap",
     iconClass: "devicon-bootstrap-plain",
   },
 
   {
-    name: "ghsdf",
+    name: "threeJS",
     iconClass: "devicon-threejs-original",
   },
 
   {
-    name: "HTML",
+    name: "C#",
     iconClass: " devicon-csharp-plain",
   },
 
@@ -40,7 +40,7 @@ export const skills = [
   },
 
   {
-    name: "JavaScript",
+    name: "MaterialUI",
     iconClass: "devicon-materialui-plain",
   },
 ];

@@ -36,10 +36,10 @@ const Skills = () => {
         skills.map((skill)=>{
           if(skill.name!="PHASER")
           return(
-          <i className={skill.iconClass} key={skill.name}></i>
+          <i className={skill.iconClass} key={skill.name} title={skill.name}></i>
           )
           else
-          return(<img src="images\Phaser.png" className="shadow" alt="Phaser" width="120px" height="120px"/>)
+          return(<img src="images\Phaser.png" title="Phaser" className="shadow" alt="Phaser" width="120px" height="120px"/>)
         })
       }
       

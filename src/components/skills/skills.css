@@ -15,7 +15,7 @@
 } */
 .skills__icons {
 
-  max-width: 80vw;
+  max-width: 60vw;
   margin: 80px auto;
   color: white;
   font-size: 100px;
@@ -39,12 +39,7 @@
 
 .skills__icons i, .skills__icons img{
   margin-top: 70px;
-  margin: 30px;
-}
-
-.skills__icons #PHASER{
-  margin-top: 20px;
-  margin-bottom: -20px;
+  margin: 45px;
 }
 
 /* .skills__icons i:hover{

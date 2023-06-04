@@ -8,7 +8,7 @@ const Skills = () => {
     <div id="skills">
     <div>
 
-    <div className="skills" /*id="skills2"*/ >
+    <div className="skills">
       <h2 className="section__heading" id="textSkills" >Skills</h2>
 
       {/* <div className="skills__icons">

@@ -1,0 +1,28 @@
+body{
+    background-image: url("space.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* position: relative */
+}
+
+.aboutMeContainer{
+    border-radius: 40%;
+    background-color: #000000CC;
+    /* background-color: rgb(156, 128, 128); */
+    display: flex;
+    width: 80%;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 90%
+}
+
+#aboutMe{
+    width:45%
+}

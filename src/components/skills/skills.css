@@ -35,15 +35,6 @@
     flex-direction: column;
   }
   /* resize skills icons for smart phones */
-  .skills__icons i {
-
-  }
-
-  i.devicon-mongodb-plain{
-    width: 10px;  
-    height: 10px;
-  }
-
 }
 
 .skills__icons i,

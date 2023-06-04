@@ -3,14 +3,15 @@ import "./float_shadow.css"
 import { skills } from "../../data/skills.js"
 
 const Skills = () => {
+  console.log(skills)
   return (
     <div id="skills">
     <div>
-    {/* <a name="skills"></a> */}
+
     <div className="skills" /*id="skills2"*/ >
       <h2 className="section__heading" id="textSkills" >Skills</h2>
 
-      <div className="skills__icons">
+      {/* <div className="skills__icons">
         <div>
           {skills.slice(0, 4).map((skill) => (
           <i className={skill.iconClass} key={skill.name}></i>
@@ -20,7 +21,7 @@ const Skills = () => {
           {skills.slice(4, 7).map((skill) => (
           <i className={skill.iconClass} key={skill.name}></i>
         ))}
-            </div>
+            </div> 
 
         <div>
           {skills.slice(7, 10).map((skill) => (
@@ -29,7 +30,21 @@ const Skills = () => {
         ))}
             </div>        
         
+      </div> */}
+      <div className="skills__icons">
+        {
+        skills.map((skill)=>{
+          if(skill.name!="PHASER")
+          return(
+          <i className={skill.iconClass} key={skill.name}></i>
+          )
+          else
+          return(<img src="images\Phaser.png" className="shadow" alt="Phaser" width="120px" height="120px"/>)
+        })
+      }
+      
       </div>
+
       {/* <div className="skills__icons">
         {skills2.map((skill) => (
           // (skill.name=="PHASER")?<img src="images\Phaser.png" alt="Phaser" width="50px" height="50px"/>:

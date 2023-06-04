@@ -10,9 +10,9 @@ function NavMenu() {
   return (
     //changed div to nav
     <nav className="nav">
-      <a href="/" className="brand-name">
+      <HashLink to="/#root" className="brand-name">
         Baileys
-      </a>
+      </HashLink>
 
       {/* hamburger NavMenu */}
       <button
@@ -57,22 +57,6 @@ function NavMenu() {
           </li>
         </ul>
       </div>
-
-      {/* Satyam's code  */}
-
-      {/* <HashLink to={"/#root"}>Home</HashLink>
-       <a href="/Aboutus">About</a> 
-       <Link to={"/Aboutus"}>About Us</Link>
-      <HashLink to={"/#skills"}>Skills</HashLink>
-      <HashLink to={"/#projects"}>Projects</HashLink>
-      <a href="/Contact">Contact</a> 
-      <Link to={"/Contact"}>Contact</Link>  */}
-
-      {/* <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a> */}
     </nav>
   );
 }

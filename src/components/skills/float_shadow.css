@@ -58,7 +58,7 @@
 /* dev icons*/
 
 
-.skills__icons i {
+.skills__icons i, .skills__icons img {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -70,7 +70,7 @@
     -webkit-transition-property: transform;
     transition-property: transform;
   }
-  .skills__icons i:before {
+  .skills__icons i:before , .skills__icons img:before {
     pointer-events: none;
     /* position: absolute; */
     z-index: -1;
@@ -102,7 +102,10 @@
   }
   .skills__icons i:hover,
   .skills__icons i:focus,
-  .skills__icons i:active {
+  .skills__icons i:active,
+  .skills__icons img:hover,
+  .skills__icons img:focus,
+  .skills__icons img:active {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: rgba(228, 217, 217, 0.209);
@@ -111,7 +114,11 @@
    }
   .skills__icons i:hover:before,
   .skills__icons i:focus:before,
-  .skills__icons i:active:before {
+  .skills__icons i:active:before,
+  .skills__icons img:hover:before,
+  .skills__icons img:focus:before,
+  .skills__icons img:active:before
+   {
     opacity: 1;
     -webkit-transform: translateY(5px);
     transform: translateY(5px); 

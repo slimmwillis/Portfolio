@@ -4,7 +4,7 @@
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(143, 45, 45, 0);
+  box-shadow: 0 0 1px rgba(204, 187, 187, 0);
   position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -43,7 +43,16 @@
 .skills__icons .shadow:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
-  background-color: rgba(228, 217, 217, 0.209);
+  background: -webkit-radial-gradient(
+    center,
+    ellipse,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(252, 0, 0, 0.779) 0%,
+    rgb(198, 20, 10) 80%);
   border-radius: 50%;
   /* move the element up by 5px */
 }
@@ -88,8 +97,8 @@
     );
     background: radial-gradient(
       ellipse at center,
-      rgba(53, 17, 169, 0.095) 0%,
-      rgba(238, 233, 233, 0.258) 80%
+      rgba(252, 0, 0, 0.779) 0%,
+      rgb(198, 20, 10) 80%
       
     );
     border-radius: 50%; 

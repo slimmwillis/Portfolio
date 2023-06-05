@@ -8,8 +8,11 @@ body #aboutMebg{
 }
 
 .aboutMeContainer{
-    border-radius: 40%;
-    background-color: #000000CC;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 65px;
+    padding-bottom: 65px;
+    border-radius: 10px;
+    background-color: #181139cc;
     /* background-color: rgb(156, 128, 128); */
     display: flex;
     width: 80%;

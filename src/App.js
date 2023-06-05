@@ -18,6 +18,7 @@ import {
 } from "react-router-dom";
 import AboutMe from "./pages/AboutMe.js";
 import Contact from "./pages/Contact.jsx";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -63,6 +64,8 @@ function App() {
         <Route path={"/contact"} element={<Contact />} />
         <Route path={"/aboutme"} element={<AboutMe />} />
       </Routes>
+
+      <Toaster />
     </>
   );
 }

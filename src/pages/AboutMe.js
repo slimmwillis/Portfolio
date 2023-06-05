@@ -2,8 +2,7 @@ import React from 'react'
 import "./aboutMe.css"
 export default function AboutMe() {
   return (
-    <body id='aboutMebg'>
-      <div className="aboutMeContainer2"></div>
+    <div id='aboutMebg'>
       <div className="aboutMeContainer">
       <h1>William Bailey</h1>
 <h2>Full-Stack Web Developer</h2>
@@ -16,6 +15,6 @@ export default function AboutMe() {
 <h5>PhaserJS, Three.JS, and Unity</h5>
 <p id='aboutMe'>As a boy I enjoyed games as the one time I get to live out fantasies and have fun not worry about getting hurt, judgement or even really making a lot of effort. Games are just an easy way to be happy and tap into your imagination. An escape from reality.</p>
 </div>
-    </body>
+    </div>
   )
 }

@@ -48,7 +48,7 @@ export default function Contact() {
           </div>
           <div className="info">
             <div className="icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg></div>
-            <div className="p"><p>Dhanbad,Jharkhand</p></div>
+            <div className="p"><p>Jacksonville, Florida</p></div>
 
         
         
@@ -79,7 +79,7 @@ export default function Contact() {
       </div>
 
       <div className="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74622.82771887298!2d86.38170786759555!3d23.80117507365388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6a30804ccfc6d%3A0xfa151e1b85f764e7!2sDhanbad%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1685945955733!5m2!1sen!2sin" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40409222.40711461!2d75.20055408061523!3d51.817429940416375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b716f1ceafeb%3A0xc4cd7d3896fcc7e2!2sJacksonville%2C%20FL%2C%20USA!5e0!3m2!1sen!2sin!4v1685963759650!5m2!1sen!2sin" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </Bgstyled>
 
   );

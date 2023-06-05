@@ -17,7 +17,7 @@ import {
   withRouter,
 } from "react-router-dom";
 import AboutMe from "./pages/AboutMe.js";
-import Contact from "./pages/Contact.js";
+import Contact from "./pages/Contact.jsx";
 
 function App() {
   const [open, setOpen] = useState(false);

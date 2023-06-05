@@ -110,3 +110,71 @@
 .email {
   word-break: break-all;
 }
+
+/* @media screen and (max-width:600px) and (min-width:1224px){
+    .info{
+        gap: 4px;
+    }
+  }; */
+@media screen and (max-width:1225px){
+    .wrapp{
+        flex-direction: column;
+        align-items:center;
+    }
+    .left, .right{
+        width: 90%;
+    }
+    .line{
+        /* transform: rotate(90deg) */
+        width: 25rem;
+        height: 2px;
+    }
+    .info{
+        gap: 1rem;
+    }
+
+    .map{
+        margin: 6rem 0;
+    }
+    .map iframe{
+        width: 75%
+    }
+    
+  };
+
+
+  
+/* @media screen and (max-width:600px) and (min-width:1224px){
+    .info{
+        gap: 4px;
+    }
+  }; */
+@media screen and (max-width:1225px){
+    .wrapp{
+        flex-direction: column;
+        align-items:center;
+    }
+    .left, .right{
+        width: 90%;
+    }
+    .line{
+        /* transform: rotate(90deg) */
+        width: 25rem;
+        height: 2px;
+    }
+    .info{
+        gap: 1rem;
+    }
+
+    .map{
+        margin: 6rem 0;
+    }
+    .map iframe{
+        width: 75%
+    }
+    
+  };
+
+
+  
+

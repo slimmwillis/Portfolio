@@ -3,10 +3,11 @@ import styled from "styled-components";
 import "./contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 import { toast } from "react-hot-toast";
+import {useState,useRef} from 'react'
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xjvdqrqy");
-
+  const ltoastID=useRef(" ")
   const Bgstyled = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@1&display=swap');
   background: rgb(25, 22, 43);
@@ -33,9 +34,11 @@ export default function Contact() {
 
 //react-hot-toast
 
+
   if (state.succeeded) {
-    toast.success("Thanks for contacting me.");
+    toast.success('Thanks for Contacting Me ');
   }
+
 
   return (
     <Bgstyled>
@@ -65,19 +68,19 @@ export default function Contact() {
         </div>
         <div className="line"></div>
         <div className="right">
-        <form action="#" method='POST' autoComplete='off'>
+        <form onSubmit={handleSubmit} autoComplete='off'>
         <div className="form-group">
         <label htmlFor="Name">
         Your Name <br/>
-        <input type="text" name='Name'/>
+        <input type="text" name='Name' required/>
         </label>
         </div>
         <div class="form-group"><label for="email">Your Email
-        <input type="email" id="email" name="email"  /></label>
+        <input type="email" id="email" name="email"  required/></label>
         </div>
         <div class="form-group">
         <label for="message">Your message <br/>
-        <textarea type="text" id="message" name="message" rows="10">
+        <textarea type="text" id="message" name="message" rows="10" required>
         </textarea>
         </label>
         </div>
@@ -87,7 +90,7 @@ export default function Contact() {
       </div>
 
       <div className="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74622.82771887298!2d86.38170786759555!3d23.80117507365388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6a30804ccfc6d%3A0xfa151e1b85f764e7!2sDhanbad%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1685945955733!5m2!1sen!2sin" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440732.7020979921!2d-82.012761059379!3d30.34457653049257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b716f1ceafeb%3A0xc4cd7d3896fcc7e2!2sJacksonville%2C%20FL%2C%20USA!5e0!3m2!1sen!2sin!4v1686067401718!5m2!1sen!2sin" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </Bgstyled>
   );
 }

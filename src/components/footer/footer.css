@@ -1,0 +1,68 @@
+.foot{
+    background: rgb(25, 22, 43);
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    
+}
+.foot h1,h2{
+    font-family: "Montserrat SemiBold";
+}
+.foot h1{
+    font-size: 2.5rem;
+    margin-top: 0 !important;
+    padding: 0;
+    margin-bottom: .5rem;
+    line-height: 2.5rem;
+}
+.foot h2{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.copyright{
+    background: rgb(45, 38, 89);
+    width: 100%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    /* margin-top: 2.5rem; */
+}
+.copyright .wrap{
+    width: 80%;
+    margin: auto;
+}
+
+.foot .wrap{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap:5rem;
+}
+
+.wrap .s1{
+    flex: 2 1 0%;
+}
+
+.wrap .s2{
+    flex: 1 1 0%;
+}
+.wrap .s3{
+    flex: 1 1 0%;
+}
+.wrap .s4{
+    flex: 1 1 0%;
+}
+
+.s1 p{
+    font-family: "RobotoMono Regular";
+    padding-top: .5rem;
+}
+.foot li{
+    list-style-type: none;
+    padding-bottom: .3rem;
+    /* font-family: "RobotoMono Regular"; */
+}
+li a{
+    text-emphasis: none;
+    text-decoration: none;
+    color: white;
+}

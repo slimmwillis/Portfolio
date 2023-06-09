@@ -4,6 +4,7 @@ import "./contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 import { toast } from "react-hot-toast";
 import {useState,useRef} from 'react'
+import Footer from "../components/footer/Footer";
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xjvdqrqy");
@@ -41,6 +42,7 @@ export default function Contact() {
 
 
   return (
+    <>
     <Bgstyled>
       <Cont>
         <p>get in touch</p>
@@ -92,5 +94,8 @@ export default function Contact() {
       <div className="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440732.7020979921!2d-82.012761059379!3d30.34457653049257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b716f1ceafeb%3A0xc4cd7d3896fcc7e2!2sJacksonville%2C%20FL%2C%20USA!5e0!3m2!1sen!2sin!4v1686067401718!5m2!1sen!2sin" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </Bgstyled>
+   
+    
+</>
   );
 }

@@ -69,11 +69,11 @@ const Skills = () => {
       }
       </div>
       <div className="skills4">
-          <img src="/images/UNITY.png" width="300px" height="100px" alt="logo" class="UNITYcenter"/>
+          <img src="/images/UNITY.png" title="UNITYGAMES" width="300px" height="100px" alt="logo" class="UNITYcenter"/>
         
           {/* <div className="HTML5GAMES"> */}
 
-          <img src="/images/HTML5GAMES.png" width="300px" height="100px" alt="logo" class="HTMLcenter"/>
+          <img src="/images/HTML5GAMES.png" title="HTML5GAMES" width="300px" height="100px" alt="logo" class="HTMLcenter"/>
           </div>
       
       </div>

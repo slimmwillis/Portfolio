@@ -7,6 +7,7 @@ import "./index.css";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import { Dialog, DialogTitle, stepButtonClasses } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import Footer from "./components/footer/Footer";
 import { io } from "socket.io-client";
 import {
   BrowserRouter,
@@ -64,7 +65,7 @@ function App() {
         <Route path={"/contact"} element={<Contact />} />
         <Route path={"/aboutme"} element={<AboutMe />} />
       </Routes>
-
+          <Footer></Footer>
       <Toaster />
     </>
   );

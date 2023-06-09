@@ -10,7 +10,7 @@ function NavMenu() {
   return (
     //changed div to nav
     <nav className="nav">
-      <HashLink to="/#root" className="brand-name">
+      <HashLink to="/#root" className="brand-name" onClick={()=>{setIsNavExpanded(false)}}>
         Baileys
       </HashLink>
 

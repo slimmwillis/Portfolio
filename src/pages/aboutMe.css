@@ -6,6 +6,7 @@ body #aboutMebg {
   height: auto;
   background-attachment: fixed;
   background-size: cover;
+  width: 100%;
   /* position: relative */
 }
 
@@ -57,7 +58,7 @@ image-bg {
   width: 200px;
   background-image: url("../../public/images/LavaPlanet.jpeg");
   /* spinning */
-  animation-name: spin;
+  /* animation-name: spin; */
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -71,7 +72,7 @@ image-bg {
   will-change: transform;
 
   transform: translateY(0);
-  animation: move1 400s linear infinite;
+  animation: move1 400s linear infinite; 
   transition: transform 0.1s ease-in-out;
   will-change: transform;
 }
@@ -104,7 +105,7 @@ image-bg {
     transform: translateX(0) translateY(0) rotate(0deg);
   }
   50% {
-    transform: translateX(400px) translateY(500px) rotate(360deg);
+    transform: translateX(calc(100vw*0.4)) translateY(500px) rotate(360deg);
   }
 }
 
@@ -130,7 +131,8 @@ image-bg {
 
 /* .aboutMeImage {
   width: 400px;
-  height: 100%;
+  height: 100%;400
+
   overflow: hidden;
   position: absolute;
   opacity: 0.3;
@@ -138,7 +140,7 @@ image-bg {
 } */
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   #lavaPlanet {
     width: 400px;
     height: 400px;
@@ -148,4 +150,12 @@ image-bg {
     width: 400px;
     height: 400px;
   }
+} */
+
+@media only screen and (max-width:450px) {
+    #lavaPlanet{
+      width: 100px;
+      height: 100px;
+    }
+  
 }

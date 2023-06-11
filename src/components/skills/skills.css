@@ -29,13 +29,7 @@
   grid-column: span 33%;
 } */
 
-@media (max-width: 458px) {
-  .skills__icons div {
-    align-items: center;
-    flex-direction: column;
-  }
-  /* resize skills icons for smart phones */
-}
+
 
 .skills__icons i,
 .skills__icons img {
@@ -104,3 +98,59 @@
 .right{
   font-size: 1rem;
 }
+
+@media (max-width: 520px) {
+  .skills__icons div {
+    align-items: center;
+    flex-direction: column;
+  }
+  /* resize skills icons for smart phones */
+}
+
+@media (max-width: 580px) {
+  /* .skills__icons img, .skills__icons i{
+   margin: 30px;
+  } */
+  .skills4 img{
+    width: 200px;
+  }
+  .skills__icons i{
+    width: 65px;
+  }
+  .skills3 img{
+    width: 100px;
+    height: auto;
+  }
+  /* resize skills icons for smart phones */
+}
+@media (max-width: 640px) and (min-width: 581px) {
+  /* .skills__icons img, .skills__icons i{
+   margin: 30px;
+  } */
+  .skills__icons i{
+    width: 80px;
+  }
+  .skills3 img{
+    width: 100px;
+    height: auto;
+  }
+  /* resize skills icons for smart phones */
+}
+
+@media (max-width: 720px) and (min-width: 581px) {
+  /* .skills__icons img, .skills__icons i{
+   margin: 30px;
+  } */
+  .skills4 img{
+    width: 230px;
+  }
+  /* resize skills icons for smart phones */
+}
+
+@media (max-width: 780px) {
+  .skills__icons img, .skills__icons i{
+   margin: 30px;
+  }
+  /* resize skills icons for smart phones */
+}
+

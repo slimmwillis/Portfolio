@@ -69,27 +69,21 @@ li a{
 
 
 @media only screen and (max-width:350px) {
-    .foot{
-        background: red;
-    }
+    
     html{
         font-size: 10px;
     }
     
 }
 @media only screen and (max-width:450px) and (min-width:350px) {
-    /* .foot{
-        background: red;
-    } */
+    
     html{
         font-size: 12px;
     }
     
 }
 @media only screen and (max-width:910px) {
-    /* .foot{
-        background: red;
-    } */
+    
     .foot .wrap{
         flex-direction: column;
     }

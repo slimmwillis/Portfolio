@@ -20,16 +20,17 @@ import {
 import AboutMe from "./pages/AboutMe.js";
 import Contact from "./pages/Contact.jsx";
 import { Toaster } from "react-hot-toast";
+import DialogBox from "./components/dialog/DialogBox";
 
 function App() {
   const [open, setOpen] = useState(false);
 
-  const handleOpen = () => {
-    setOpen(true);
-  };
-  const handleClose = () => {
-    setOpen(false);
-  };
+  // const handleOpen = () => {
+  //   setOpen(true);
+  // };
+  // const handleClose = () => {
+  //   setOpen(false);
+  // };
 
   useEffect(() => {
     const socket = io("http://localhost:3000");
@@ -49,16 +50,10 @@ function App() {
               <Skills />
               <Projects />
               <ChatBubbleOutlineOutlinedIcon
-                onClick={handleOpen}
+                onClick={()=>setOpen(true)}
                 sx={{ fontSize: 100, position: "fixed", bottom: 10, right: 10 }}
               />
-              <Dialog onClose={handleClose} open={open}>
-          <DialogTitle>Contact Informtaion</DialogTitle>
-          <h5 class="contactDetails">WhatsApp and Phone number</h5>
-          <p class="contactDetails">{`+1(904)800-5911`}</p>
-          <h5 class="contactDetails">Email</h5>
-          <p class="contactDetails">{`slimmwillis@gmail.com`}</p>
-        </Dialog>{" "}
+              <DialogBox open={open} func={setOpen}></DialogBox>
             </>
           }
         />

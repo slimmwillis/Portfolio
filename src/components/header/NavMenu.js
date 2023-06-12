@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavMenu.css";
-import { Link,NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { Link as SLink } from "react-scroll";
 import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 
@@ -10,7 +11,7 @@ function NavMenu() {
   return (
     //changed div to nav
     <nav className="nav">
-      <HashLink to="/#root" className="brand-name" onClick={()=>{setIsNavExpanded(false)}}>
+      <HashLink to="/#root" className="brand-name" onClick={() => { setIsNavExpanded(false) }}>
         Baileys
       </HashLink>
 
@@ -43,17 +44,27 @@ function NavMenu() {
         }
       >
         <ul>
-        <li>
-            <HashLink to="/#projects" className="" onClick={()=>{setIsNavExpanded(false)}}>Projects</HashLink>
+          <li>
+            <HashLink to="/#projects" className="" onClick={() => { setIsNavExpanded(false) }}>Projects</HashLink>
           </li>
           <li>
-            <HashLink to="/#skills" className="" onClick={()=>{setIsNavExpanded(false)}}>Skills</HashLink> 
+          {/* <SLink
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}>
+              Skills
+            </SLink> */}
+            <HashLink to="/#skills" className="" onClick={() => { setIsNavExpanded(false) }}>Skills</HashLink>
           </li>
           <li>
-            <Link to="/aboutme" onClick={()=>{setIsNavExpanded(false)}}>About</Link>
+            
+            <HashLink to="/aboutme#root" onClick={()=>{setIsNavExpanded(false)}}>About</HashLink>
           </li>
           <li>
-            <Link to="/contact" onClick={()=>{setIsNavExpanded(false)}}>Contact</Link>
+            <HashLink to="/contact#root" onClick={() => { setIsNavExpanded(false) }}>Contact</HashLink>
           </li>
         </ul>
       </div>

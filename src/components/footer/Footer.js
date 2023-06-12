@@ -47,7 +47,7 @@ function Footer() {
     </div>
     <div className="copyright">
         <div className="wrap">
-            <p>© 2023 - William Bailey | Designed By Satyam Dubey</p>
+            <p>© 2023 - William Bailey | Designed with Passion By William Bailey</p>
         </div>
     </div>
     </>

@@ -14,9 +14,11 @@ function DialogBox({ open, func }) {
       <h5 class="contactDetails">Email</h5>
       <p class="contactDetails">{`slimmwillis@gmail.com`}</p>
       <div className="btns">
-        <Button variant="outlined" startIcon={<i class="fa-brands fa-whatsapp"></i>} onClick={() => window.location = 'https://wa.me/+19048005911'}>
+        <a href="https://wa.me/+19048005911" target={"_blank"}>
+        <Button variant="outlined" startIcon={<i class="fa-brands fa-whatsapp"></i>} >
           Whatsapp
         </Button>
+        </a>
         <Button variant="outlined" startIcon={<i class="fa-solid fa-paper-plane"></i>}  onClick={() => window.location = 'mailto:slimmwillis@gmail.com'}>
           E-Mail
         </Button>

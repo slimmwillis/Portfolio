@@ -9,7 +9,7 @@ function Footer() {
         <div className="wrap">
             <div className="s1">
                 <h1>William Bailey</h1>
-                <p>A freelance web designer and developer from Jharkhand, India. I always make websites that have unique designs and also has a good performance rate.</p>
+                <p>A web designer and developer from Jacksonville, Florida. I always make websites that have unique designs and also has a good performance rate.</p>
             </div>
             <div className="s2">
                 <h2>Important Links</h2>
@@ -26,7 +26,7 @@ function Footer() {
             <div className="s3">
                 <h2>Contact Info</h2>
                 <ul>
-                    <li>+19048005911</li>
+                    <li>+1(904)800-5911</li>
                     <li>williambailey.dev@gmail.com</li>
                     <li>Jacksonville </li>
                     <li>Florida, United States </li>

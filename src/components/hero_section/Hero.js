@@ -20,7 +20,7 @@ function Hero() {
           <h5 class="contactDetails">WhatsApp and Phone number</h5>
           <p class="contactDetails">{`+1(904)800-5911`}</p>
           <h5 class="contactDetails">Email</h5>
-          <p onClick={() => window.location = 'mailto:slimmwillis@gmail.com'} class="contactDetails">{`slimmwillis@gmail.com`}</p>
+          <p onClick={() => window.location = 'mailto:William@Wbailey.us'} class="contactDetails">{`William@Wbailey.us`}</p>
         </Dialog>{" "} */}
         <DialogBox open={openn} func={setOpen}></DialogBox>
         <button className="btn" onClick={()=>setOpen(true)}>

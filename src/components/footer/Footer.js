@@ -27,7 +27,7 @@ function Footer() {
                 <h2>Contact Info</h2>
                 <ul>
                     <li>+1(904)800-5911</li>
-                    <li>williambailey.dev@gmail.com</li>
+                    <li>William@Wbailey.us</li>
                     <li>Jacksonville </li>
                     <li>Florida, United States </li>
                 </ul>
@@ -35,11 +35,11 @@ function Footer() {
             <div className="s4">
                 <h2>Social Links</h2>
                 <ul>
-                    <li><a href="/" target={"_blank"}> Facebook</a></li>
-                    <li><a href="/" target={"_blank"}> Codewars</a></li>
-                    <li><a href="/" target={"_blank"}> Twitter</a></li>
-                    <li><a href="/" target={"_blank"}> Instagram</a></li>
-                   
+                    <li><a href="https://www.facebook.com/Wbailey89" target={"_blank"}> Facebook</a></li>
+                    <li><a href="https://www.codewars.com/users/slimmwillis" target={"_blank"}> Codewars</a></li>
+                    <li><a href="https://github.com/slimmwillis" target={"_blank"}> Github</a></li>
+                    <li><a href="https://www.youtube.com/@slimmwillis/featured" target={"_blank"}> Youtube</a></li>
+                    <li><a href="https://codepen.io/Slimmwillis" target={"_blank"}> CodePen.io</a></li>
                 </ul>
                 </div>
        

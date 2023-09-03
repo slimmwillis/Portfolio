@@ -12,14 +12,14 @@ function DialogBox({ open, func }) {
       <h5 class="contactDetails">WhatsApp and Phone number</h5>
       <p class="contactDetails">{`+1(904)800-5911`}</p>
       <h5 class="contactDetails">Email</h5>
-      <p class="contactDetails">{`slimmwillis@gmail.com`}</p>
+      <p class="contactDetails">{`William@Wbailey.us`}</p>
       <div className="btns">
         <a href="https://wa.me/+19048005911" target={"_blank"}>
         <Button variant="outlined" startIcon={<i class="fa-brands fa-whatsapp"></i>} >
           Whatsapp
         </Button>
         </a>
-        <Button variant="outlined" startIcon={<i class="fa-solid fa-paper-plane"></i>}  onClick={() => window.location = 'mailto:slimmwillis@gmail.com'}>
+        <Button variant="outlined" startIcon={<i class="fa-solid fa-paper-plane"></i>}  onClick={() => window.location = 'mailto:William@Wbailey.us'}>
           E-Mail
         </Button>
       </div>

@@ -97,4 +97,6 @@
 
 .project-modal__content p {
     color: black;
+    padding: 10px;
+    margin: 10px;
 }

@@ -1,32 +1,37 @@
 export const projects = [
   {
-    title: "Social Media App",
+    title: "Blog",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ea recusandae laudantium eveniet adipisci, culpa iure, a similique minus exercitationem aut ratione distinctio, quam aliquam unde harum! Ratione, quas temporibus!",
-    image: "/images/project-1.jpg"
+      "A live blog where I talk about my interests.",
+    image: "/images/blog.png",
+    url: "https://www.blog.wbailey.us/"
   },
   {
-    title: "Social Media App",
+    title: "1942",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ea recusandae laudantium eveniet adipisci, culpa iure, a similique minus exercitationem aut ratione distinctio, quam aliquam unde harum! Ratione, quas temporibus!",
-    image: "/images/project-1.jpg"
+      "Designed after the game 1942",
+    image: "/images/1942-min.png",
+    url: "https://1942-clone.vercel.app/"
   },
   {
-    title: "Social Media App",
+    title: "Basic Store Page",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ea recusandae laudantium eveniet adipisci, culpa iure, a similique minus exercitationem aut ratione distinctio, quam aliquam unde harum! Ratione, quas temporibus!",
-    image: "/images/project-1.jpg"
+      "Basic example of a webstore.",
+    image: "/images/Webstore.jpg",
+    url: "https://youtu.be/JW_-De8Qpng?si=ryXGoLQ8gfZG0zp9"
   },
   {
-    title: "Social Media App",
+    title: "Basic Chat App",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ea recusandae laudantium eveniet adipisci, culpa iure, a similique minus exercitationem aut ratione distinctio, quam aliquam unde harum! Ratione, quas temporibus!",
-    image: "/images/project-1.jpg"
+      "Basic example of a chat app.",
+    image: "/images/ChatApp.jpg",
+    url: "https://youtu.be/5QmSGz77Xfo?si=JGteFWs5jFwg8t6S"
   },
   {
-    title: "Social Media App",
+    title: "Candy Themed CSS Buttons",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ea recusandae laudantium eveniet adipisci, culpa iure, a similique minus exercitationem aut ratione distinctio, quam aliquam unde harum! Ratione, quas temporibus!",
-    image: "/images/project-1.jpg"
+      "Candy themed buttons built in CSS",
+    image: "/images/candy.png",
+    url: "https://youtu.be/X8NGIK4kQFU?si=nG1G-JN3PDDDVQ6u"
   }
 ]

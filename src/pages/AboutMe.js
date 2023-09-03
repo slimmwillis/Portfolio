@@ -12,9 +12,9 @@ export default function AboutMe() {
       <div className="aboutMeContainer">
         {/* <img src={aboutMe} className="aboutMeImage" alt="logo"/> */}
 
-        <h1 className="wordsAndStuff">William Bailey</h1>
+        <h1 className="wordsAndStuff">Software Engineer</h1>
         <h2 className="wordsAndStuff">Full-Stack Web Developer</h2>
-        <h3 className="wordsAndStuff">MERN</h3>
+        <h3 className="wordsAndStuff">MERN Ts</h3>
         <h5 className="wordsAndStuff">MongoDb, Express, React, Node</h5>
         <p className="wordsAndStuff">
           I am a full-stack web developer with a passion to solve complex
@@ -31,7 +31,7 @@ export default function AboutMe() {
           into your imagination. An escape from reality.
         </p>
         <p id="aboutMeHideMe" className="wordsAndStuff">
-          Also, lava planet is a div, not an image.
+          Also, lava planet is a div with an img, not a gif.
         </p>
       </div>
     </div>

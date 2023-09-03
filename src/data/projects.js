@@ -31,7 +31,7 @@ export const projects = [
     title: "Candy Themed CSS Buttons",
     description:
       "Candy themed buttons built in CSS",
-    image: "/images/candy.png",
+    image: "/images/Candy.png",
     url: "https://youtu.be/X8NGIK4kQFU?si=nG1G-JN3PDDDVQ6u"
   }
 ]

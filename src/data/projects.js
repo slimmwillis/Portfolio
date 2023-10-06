@@ -2,7 +2,9 @@ export const projects = [
   {
     title: "Blog",
     description:
-      "A live blog where I talk about my interests.",
+    <p id="special-p">
+    A live blog where I talk about my interests. <strong>Please be patient, blog is on a free server and takes a while to spin up.</strong>
+  </p>,
     image: "/images/blog.png",
     url: "https://www.blog.wbailey.us/"
   },

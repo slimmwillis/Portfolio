@@ -100,3 +100,19 @@
     padding: 10px;
     margin: 10px;
 }
+
+.project-modal__content p:first-child {
+    /* Add your custom styles for the first item here */
+    padding-top: 0px; /* Adjust the top padding */
+    padding-bottom: 0px; /* Adjust the bottom padding */
+    margin-top: 0px; /* Adjust the top margin */
+    margin-bottom: 3px; /* Adjust the bottom margin */
+}
+
+#special-p {
+    /* Add your custom styles for the nested <p> element here */
+    padding-top: 0px; /* Adjust the top padding */
+    padding-bottom: 0px; /* Adjust the bottom padding */
+    margin-top: 0px; /* Adjust the top margin */
+    margin-bottom: 2px; /* Adjust the bottom margin */
+}

@@ -42,7 +42,6 @@ export default function Contact() {
     <>
       <Bgstyled>
         <Cont>
-          <p>get in touch</p>
           <h2>CONTACT</h2>
         </Cont>
         <div className="wrapp">
@@ -62,7 +61,7 @@ export default function Contact() {
                 </svg>
               </div>
               <div className="p">
-                <p>+1(904)800-5911</p>
+                <p>+1(904)649-0784</p>
               </div>
             </div>
             <div className="info">
@@ -80,7 +79,7 @@ export default function Contact() {
                 </svg>
               </div>
               <div className="p email">
-                <p>developer@wbailey.us</p>
+                <p>William@WBailey.US</p>
               </div>
             </div>
             <div className="info">

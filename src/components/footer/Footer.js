@@ -10,9 +10,7 @@ function Footer() {
           <div className="s1">
             <h1>William Bailey</h1>
             <p>
-              A web designer and developer from Jacksonville, Florida. I always
-              make websites that have unique designs and also has a good
-              performance rate.
+              A ProAdvisor, bookkeeper, payroll specialist, web designer and developer from Jacksonville, Florida.
             </p>
           </div>
           <div className="s2">
@@ -38,8 +36,8 @@ function Footer() {
           <div className="s3">
             <h2>Contact Info</h2>
             <ul>
-              <li>+1(904)800-5911</li>
-              <li>developer@wbailey.us</li>
+              <li>+1(904)649-0784</li>
+              <li>William@WBailey.US</li>
               <li>Jacksonville </li>
               <li>Florida, United States </li>
             </ul>

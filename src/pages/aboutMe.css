@@ -25,7 +25,7 @@ image-bg {
   border-radius: 50px;
   /* background-image: url("../../public/images/aboutMe.png"); */
 
-  background-color: rgba(13, 11, 47, 0.346);
+  background-color: rgba(13, 11, 47, 0.86);
   display: flex;
   align-items: center;
   /* justify-content: center; */
@@ -37,7 +37,7 @@ image-bg {
   height: auto;
 }
 .aboutMeContainer p {
-  width: 45%;
+  width: 75%;
 }
 #aboutMe {
   width: 45%;

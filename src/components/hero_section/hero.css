@@ -57,3 +57,7 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.hero{
+  background-color: rgb(25, 22, 43);
+  display:flex;
+}

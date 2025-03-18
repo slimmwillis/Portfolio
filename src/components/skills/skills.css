@@ -86,6 +86,13 @@
   width: 80%;
 } */
 
+
+.skills0 img {
+  filter: invert(100%); /* Turns black to white */
+
+}
+
+.skills0,
 .skills1,
 .skills2,
 .skills3,

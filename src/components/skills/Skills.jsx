@@ -1,6 +1,6 @@
 import "./skills.css"
 import "./float_shadow.css"
-import { skills1,skills2,skills3 } from "../../data/skills.js"
+import { skills0,skills1,skills2,skills3 } from "../../data/skills.js"
 
 const Skills = () => {
   // console.log(skills)
@@ -32,6 +32,15 @@ const Skills = () => {
         
       </div> */}
       <div className="skills__icons">
+      <div className="skills0">
+  {skills0.map((skill) => (
+    skill.iconClass.includes(".png") ? (
+      <img src={skill.iconClass} key={skill.name} title={skill.name} alt={skill.name} width="120px" height="120px"/>
+    ) : (
+      <i className={skill.iconClass} key={skill.name} title={skill.name}></i>
+    )
+  ))}
+</div>
         <div className="skills1">
         {
         skills1.map((skill)=>{

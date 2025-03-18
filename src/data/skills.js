@@ -1,3 +1,17 @@
+export const skills0 = [
+  {
+    name: "QuickBooks",
+    iconClass: "/images/brand_quickbooks_icon_157823.png",
+  },
+{
+  name: "Bookkeeping",
+  iconClass: "/images/balance-sheet.png",
+},
+{
+  name: "MongoDB",
+  iconClass: "/images/employee-benefit.png",
+} ]
+
 export const skills1 = [
   {
     name: "MongoDB",

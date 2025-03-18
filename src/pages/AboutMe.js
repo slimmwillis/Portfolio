@@ -5,9 +5,10 @@ import "./aboutMe.css";
 export default function AboutMe() {
   return (
     <div id="aboutMebg">
+      <a href="/contact">
       <div id="lavaPlanet">
         <p id="lavaPlanetText">Hire Me</p>
-      </div>
+      </div> </a>
 
       <div className="aboutMeContainer">
         {/* <img src={aboutMe} className="aboutMeImage" alt="logo"/> */}

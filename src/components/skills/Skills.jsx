@@ -34,11 +34,13 @@ const Skills = () => {
       <div className="skills__icons">
       <div className="skills0">
   {skills0.map((skill) => (
-    skill.iconClass.includes(".png") ? (
-      <img src={skill.iconClass} key={skill.name} title={skill.name} alt={skill.name} width="120px" height="120px"/>
-    ) : (
-      <i className={skill.iconClass} key={skill.name} title={skill.name}></i>
-    )
+    <a href={skill.url} target="_blank" rel="noopener noreferrer" key={skill.name}>
+      {skill.iconClass.includes(".png") ? (
+        <img src={skill.iconClass} title={skill.name} alt={skill.name} width="120px" height="120px" />
+      ) : (
+        <i className={skill.iconClass} title={skill.name}></i>
+      )}
+    </a>
   ))}
 </div>
         <div className="skills1">

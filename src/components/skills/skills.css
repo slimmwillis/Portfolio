@@ -1,8 +1,8 @@
-.skills {
+.skills {background-color: #2a169b1b;
   padding-left: 20px;
   padding-right: 20px;
 }
-#skills {
+#skills {background-color: black;
   display: block;
 }
 
@@ -15,7 +15,7 @@
 } */
 .skills__icons {
   /* max-width: 60vw; */
-  margin: 80px auto;
+  /* margin: 80px auto; */
   color: white;
   font-size: 100px;
   display: flex;
@@ -101,6 +101,7 @@
   align-items: center;
   justify-content: center;
   margin: 0px 100px;
+  
 }
 .right{
   font-size: 1rem;
